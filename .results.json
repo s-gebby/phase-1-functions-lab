@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 10,
-    "start": "2024-02-06T19:28:41.665Z",
-    "end": "2024-02-06T19:28:42.582Z",
-    "duration": 917
+    "start": "2024-02-06T19:31:27.518Z",
+    "end": "2024-02-06T19:31:28.398Z",
+    "duration": 880
   },
   "tests": [
     {
@@ -73,7 +73,7 @@
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:34:7)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -106,10 +106,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 0",
-        "showDiff": true,
-        "expected": 0,
-        "stack": "AssertionError: expected undefined to equal 0\n    at Context.<anonymous> (test/indexTest.js:48:46)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:48:7)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -118,10 +116,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2.56",
-        "showDiff": true,
-        "expected": 2.56,
-        "stack": "AssertionError: expected undefined to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:53:46)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:53:7)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -130,22 +126,18 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 25",
-        "showDiff": true,
-        "expected": 25,
-        "stack": "AssertionError: expected undefined to equal 25\n    at Context.<anonymous> (test/indexTest.js:57:46)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:57:7)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 'cannot travel that far'",
-        "showDiff": true,
-        "expected": "cannot travel that far",
-        "stack": "AssertionError: expected undefined to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:61:46)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:61:7)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     }
   ],
@@ -193,7 +185,7 @@
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:34:7)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -226,10 +218,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 0",
-        "showDiff": true,
-        "expected": 0,
-        "stack": "AssertionError: expected undefined to equal 0\n    at Context.<anonymous> (test/indexTest.js:48:46)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:48:7)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -238,10 +228,8 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 2.56",
-        "showDiff": true,
-        "expected": 2.56,
-        "stack": "AssertionError: expected undefined to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:53:46)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:53:7)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
@@ -250,22 +238,18 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 25",
-        "showDiff": true,
-        "expected": 25,
-        "stack": "AssertionError: expected undefined to equal 25\n    at Context.<anonymous> (test/indexTest.js:57:46)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:57:7)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     },
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 'cannot travel that far'",
-        "showDiff": true,
-        "expected": "cannot travel that far",
-        "stack": "AssertionError: expected undefined to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:61:46)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:61:7)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "calculatesFarePrice is not defined"
       }
     }
   ],
